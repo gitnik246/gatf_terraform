@@ -15,7 +15,7 @@ env:
 jobs:
   terraform:
     name: Plan / Apply
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     defaults:
       run:
         working-directory: terraform
